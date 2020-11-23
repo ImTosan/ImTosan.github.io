@@ -47,27 +47,17 @@
           "src": "icons/icon-512.png",
           "sizes": "512x512",
           "type": "image/png"
+        },
+        {
+          "src":"/icons/maskable_icon.png",
+          "type":"image/png",
+          "sizes":"274x274",
+          "purpose":"maskable"
         }
       ],
   "start_url": "./index.html",
-  "background_color": "#3367D6",
-  "display": "standalone",
+  "background_color": "#000000",
+  "display": "fullscreen",
   "scope": "/",
-  "theme_color": "#3367D6",
-  "shortcuts": [
-    {
-      "name": "How's weather today?",
-      "short_name": "Today",
-      "description": "View weather information for today",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "How's weather tomorrow?",
-      "short_name": "Tomorrow",
-      "description": "View weather information for tomorrow",
-      "url": "/tomorrow?source=pwa",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
-    }
-  ]
+  "theme_color": "#000000"
 }
